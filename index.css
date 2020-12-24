@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'clio_regularregular';
+    src: url('letype_-_clioregular-webfont.woff2') format('woff2'),
+        url('letype_-_clioregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: clio_regularregular;
+    background-color: #efedee;
+}
+
+@media (min-width: 992px) {
+    .collapse.dont-collapse-sm {
+        display: block;
+        height: auto !important;
+        visibility: visible;
+    }
+}
+
+@media (max-width: 992px) {
+    #category-header {
+        display: none !important;
+    }
+
+    #price {
+        font-size: 13px !important;
+        padding-top: 7px !important;
+    }
+
+    .menu-item {
+        margin: 12px !important;
+        padding-left: 8px !important;
+        padding-right: 39px !important;
+    }
+}
+
+ul {
+    list-style-type: none;
+}
+
+@media (max-width: 920px) {
+    .resturant-delivery-option {
+        margin-bottom: 2px;
+    }
+}
+
+#category a {
+    text-decoration: none !important;
+    color: dimgray;
+    font-weight: 500;
+}
+
+.area-part {
+    background-color: white;
+    border-radius: 4px;
+}
+
+#category-header {
+    font-size: 21px;
+}
+
+#restaurant-address {
+    overflow-wrap: break-word;
+    color: dimgray;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.btn-add-to-cart {
+    font-weight: 800;
+    font-size: 23px;
+    padding: 0;
+    width: 36px;
+}
+
+.action-price {
+    padding-right: 7%;
+}
+
+hr {
+    width: 100%;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+.restaurant-menu {
+    padding-top: 5px !important;
+}
+
+.menu-item {
+    margin: 12px;
+    padding-left: 6px;
+    padding-right: 19px;
+}
+
+#price {
+    font-size: 16px;
+    padding-top: 6px;
+}
+
+#food-name {
+    margin-bottom: 10px;
+}
+
+.secondary-text {
+    margin-bottom: 4px;
+    color: dimgray;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.primary-text {
+    color: #212529;
+    font-weight: 800;
+}
+
+.restaurant-button-group button {
+    background-color: white !important;
+    border: 0 !important;
+}
+
+.restaurant-button-group button.selected {
+    background-color: white !important;
+    border: 0 !important;
+    color: red;
+}
+
+.open {
+    color: green !important;
+}
+
+.closed {
+    color: red !important;
+}
+
+#content {
+    margin-top: 13px;
+}
+
+#restaurant-rating span {
+    color: dimgray;
+    font-weight: 500;
+}
+
+#adress-input::placeholder {
+    font-size: 14px;
+}
+
+#order-total {
+    padding-top: 3px;
+}
+
+#sub-total {
+    padding-bottom: 3px;
+}
+
+[for="min-order-amount"] {
+    padding-bottom: 5px !important;
+}
+
+.checkout-button {
+    margin-top: 10px !important;
+    padding: 0 !important;
+}
+
+#btn-checkout {
+    background-color: #ea5728 !important;
+    color: white;
+}
+
+button {
+    background-color: #efedee !important;
+}
+
+button:hover {
+    background-color: #f5f2f4 !important;
+}
+
+.order-total .price {
+    font-size: 15px;
+}
+
+#btn-delivery-time,
+#btn-category-mobile {
+    font-weight: bold;
+}
+
+#restaurant-name {
+    font-weight: bold;
+}
+
+#resaturant .restaurant-area,
+.checkout-area,
+.area {
+    padding: 18px;
+    margin-top: 4px;
+}
+
+.checkout-button-group button {
+    height: 70px;
+}
+
+#category-header,
+.category-item {
+    margin-bottom: 13px;
+}
