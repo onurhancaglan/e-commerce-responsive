@@ -1,1 +1,1 @@
-This project not completed. Live demo: https://onurhancaglan.github.io/online-food-remake/
+This project not completed. Live demo: https://onurhancaglan.github.io/e-commerce-responsive
